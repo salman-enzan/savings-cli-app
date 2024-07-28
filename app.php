@@ -16,6 +16,7 @@ use Symfony\Component\Console\Output\ConsoleOutput;
 
 $application = new Application();
 
+
 // ... register commands
 $application->add(new AddIncomeCommand());
 $application->add(new ViewIncomeCommand());
